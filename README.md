@@ -1,2 +1,2 @@
 # python-encryptor-app
-Application to encrypt and decrypt files developed in Python
+Console application to encrypt and decrypt files developed in Python.
