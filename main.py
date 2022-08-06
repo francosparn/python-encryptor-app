@@ -15,6 +15,7 @@ def options_menu():
     print('b) Press the letter "D" if you want to decrypt a file.')
     print('c) Press the letter "Q" if you want to close the program.')
 
+# Execute
 options_menu()
 
 # Encrypt content
@@ -117,5 +118,6 @@ def response_user():
     else:
         print(Fore.RED + 'The parameter "' + response + '" is not valid.' + Fore.RESET)
         continue_or_exit()
-
+        
+# Execute
 response_user()
